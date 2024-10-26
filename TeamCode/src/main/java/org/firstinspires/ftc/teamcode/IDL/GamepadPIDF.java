@@ -15,8 +15,7 @@ import com.qualcomm.robotcore.hardware.Gamepad;
 @TeleOp(name = "TunePID")
 public class GamepadPIDF extends OpMode {
     private PIDFController controllerPIDF;
-    private PIDFController controllerPIDF1;
-    private PIDFController controllerPIDF2;
+
     public static double p=0, i=0, d=0, f=0;
     double power;
     int liftPos;
