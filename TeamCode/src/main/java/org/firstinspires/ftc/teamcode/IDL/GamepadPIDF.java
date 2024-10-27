@@ -10,9 +10,6 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.Gamepad;
 
-//push test elev
-//push test je
-//push test2222 elev
 @Config
 @TeleOp(name = "TunePID")
 public class GamepadPIDF extends OpMode {
